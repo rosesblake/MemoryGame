@@ -1,0 +1,78 @@
+#game div {
+  box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.34);
+  background-color: rgba(172, 227, 255, 0.99);
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 8%;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.34);
+}
+
+.letter{
+  transition: color 1s
+}
+
+p {
+  line-height: .3em;
+}
+
+#button-box {
+  text-align: center;
+  flex-direction: column;
+}
+
+#button-box button {
+  border: 1px blur rgb(86, 255, 89);
+  margin: 0, auto;
+  padding: .5rem 1.5rem .5rem 1.5rem;
+  border-radius: 8px;
+  background-color: rgb(86, 255, 89);
+  font-size: 1.7rem;
+  position: relative;
+  bottom: 1rem;
+  box-shadow: 2px 2px 3px 3px rgba(75, 255, 21, 0.34);
+  outline:none;
+  transition: 0.2s all; 
+}
+
+#button-box button:hover {
+  background-color:rgb(185, 255, 86);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.24);
+}
+
+/* //added click effect on button  */
+.pressed {
+  transform: scale(0.96); 
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.24);
+}
+
+#score-count {
+  color: rgb(120, 255, 23);
+  text-align: center;
+  position:relative;
+  font-size: 1.7rem;
+}
+
+#high-score-count {
+  color:red;
+  text-align: center;
+  position:relative;
+  font-size: 1rem;
+}
+
+
+
+
+
